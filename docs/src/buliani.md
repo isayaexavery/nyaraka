@@ -1,11 +1,11 @@
 ---
 title: Buliani
-titleTemplate: Vitu vyote katika Nuru ni kweli, yaani thamani yoyote ni kweli isipokua tupu and sikweli.
+titleTemplate: Vitu vyote katika Nuru ni kweli, yaani thamani yoyote ni kweli isipokua tupu na sikweli.
 ---
 
 # Kufanya Kazi na Buliani Katika Nuru
 
-Vitu vyote katika Nuru ni kweli, yaani thamani yoyote ni kweli isipokua tupu and sikweli. Hutumika kutathmini semi ambazo zinarudisha kweli au sikweli.
+Vitu vyote katika Nuru ni kweli, yaani thamani yoyote ni kweli isipokua tupu na sikweli. Hutumika kutathmini semi ambazo zinarudisha kweli au sikweli.
 
 ## Kutathmini Semi za Buliani
 
@@ -56,7 +56,7 @@ andika(kweli && sikweli) // Tokeo: `sikweli`
 
 ### Kitendakazi `||`
 
-Kitendakazi || hutathmini kwenda to kweli kama angalau kitu kimoja kati ya vyote vinavyohusika ni kweli. Kwa mfano:
+Kitendakazi `||` hutathmini kwenda kweli kama angalau kitu kimoja kati ya vyote vinavyohusika ni kweli. Kwa mfano:
 
 ```go
 andika(kweli || sikweli) // Tokeo: `kweli`
@@ -66,7 +66,7 @@ andika(sikweli || sikweli) // Tokeo: `sikweli`
 
 ### Kitendakazi `!`
 
-Kitendakazi `!` hukanisha thamani ya kitu. Kwa mfano:
+Kitendakazi `!` hukanusha thamani ya kitu. Kwa mfano:
 
 ```go
 andika(!kweli) // Tokeo: `sikweli`
@@ -97,6 +97,6 @@ kwa thamani ktk namba {
 // 5 ni namba witiri
 ```
 
-Hapa , tumetengeneza safu yenye namba 1 hadi 5 kisha tukazinguka ndani ya safu hiyo na kwa kila namba tukatumia kitendakazi `%` ilikubaini kama namba ni shufwa au witiri. Matokeo yatakua ni "ni namba shufwa" kwa namba shufwa na "ni namba witiri" kwa namba witiri.
+Hapa , tumetengeneza safu yenye namba 1 hadi 5 kisha tukazunguka ndani ya safu hiyo na kwa kila namba tukatumia kitendakazi `%` ili kubaini kama namba ni shufwa au witiri. Matokeo yatakua ni "ni namba shufwa" kwa namba shufwa na "ni namba witiri" kwa namba witiri.
 
-Vitu buliani katika Nuru vinaweza kutumika kutathmini semi ambazo zinarudisha thamani ya kweli au sikweli. Unaweza kutumia vitendakazi vya buliani kutathmini semi tata na kuendesha tabia ya vitanzi. Kuelewa namna ya kufanya kazi na thamani za buliani ni ujuzi wamsingi kwa mtengenezaji programu yeyote wa Nuru.
+Vitu buliani katika Nuru vinaweza kutumika kutathmini semi ambazo zinarudisha thamani ya kweli au sikweli. Unaweza kutumia vitendakazi vya buliani kutathmini semi tata na kuendesha tabia ya vitanzi. Kuelewa namna ya kufanya kazi na thamani za buliani ni ujuzi wa msingi kwa mtengenezaji programu yeyote wa Nuru.
